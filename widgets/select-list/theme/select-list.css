@@ -1,0 +1,16 @@
+.select-list {
+    float: left;
+    margin-right: 25px;
+}
+
+.mandatory-display{
+vertical-align: top;
+padding: 0 5px;
+color:red;
+font-weight:bold;
+}
+
+
+.disabled .mandatory-display{
+color:#ccc;
+}

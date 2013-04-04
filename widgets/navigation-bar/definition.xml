@@ -1,0 +1,32 @@
+<widget name="navigation-bar" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+    rendered-node-factory="com.aviarc.framework.toronto.widget.pn.NavigationBarRenderedNodeFactory">
+    <!--element-validator-class="com.aviarc.framework.toronto.widget.pn.validation.NavigationBarElementValidator"-->
+    <attributes>
+        <attribute name="dataset" type="dataset" mandatory="y"/>
+        <attribute name="id-field" mandatory="n"/>
+        <attribute name="display-field" mandatory="n"/>
+        <attribute name="class-field" mandatory="n"/>
+        <attribute name="transition-field" mandatory="n"/>
+        <attribute name="action-field" mandatory="n"/>
+        <attribute name="action-type-field" mandatory="n"/>
+        <attribute name="enabled-field" mandatory="n"/>
+        <attribute name="visible-field" mandatory="n"/>
+        <attribute name="render-field" mandatory="n"/>
+        <attribute name="validate" mandatory="n" type="boolean" default="n"/>
+        <attribute name="validate-field" mandatory="n"/>
+        <attribute name="server-validate-field" mandatory="n"/>
+    </attributes>
+    <sub-elements>
+        <sub-element name="validate">
+            <attributes>
+                <attribute name="widget" mandatory="n" type="nameref" />
+                <attribute name="dataset" mandatory="n"/>
+            </attributes>
+        </sub-element>
+    </sub-elements>
+    <includes>
+        <js-include file="NavigationBar.js"/>
+        <css-include file="navigation-bar.css"/>
+    </includes>
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.NavigationBar()</js-constructor> 
+</widget>

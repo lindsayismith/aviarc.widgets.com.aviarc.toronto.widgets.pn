@@ -1,0 +1,10 @@
+.com-aviarc-toronto-widgets-pn_1-0-0_invalid-reason-text {
+color: red;
+float: left;
+position: relative !important;
+padding: 4px 10px;
+}
+.com-aviarc-toronto-widgets-pn_1-0-0_invalid-reason-text.invalid {
+background: #FFEEA5;
+border: 1px solid #FFDA38;
+}

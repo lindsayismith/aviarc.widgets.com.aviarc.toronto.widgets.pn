@@ -1,0 +1,22 @@
+.application-title{font-size: 2em; position:absolute; top:43px;font-weight:bold;}
+
+.application-subtitle{font-size: 0.8em; color: #666666; position:absolute; top:90px;}
+
+.theme-logo {
+    top:2px;
+    float:right;
+    width: 321px;
+}
+
+.header_wrap {
+    height:141px; 
+    min-width:982px;    
+}
+
+.header {
+    height:141px;
+    margin:0 auto;
+    position:relative;
+    width:980px;
+    background:#FFDE4F;
+}

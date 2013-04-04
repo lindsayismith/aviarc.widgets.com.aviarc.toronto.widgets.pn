@@ -1,0 +1,11 @@
+<widget name="template-content" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl" container-positioning="y">
+    <attributes>
+        <attribute name="name" datatype="name" mandatory="n"/>
+        <!--<attribute name="pagetitle" datatype="string" mandatory="y"/>-->
+    </attributes>
+    
+     <includes>
+        <css-include file="template-content.css"/>
+    </includes>
+</widget>
+

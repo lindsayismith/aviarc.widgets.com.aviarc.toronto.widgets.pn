@@ -1,0 +1,27 @@
+<widget name="button" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+    rendered-node-factory="com.aviarc.framework.toronto.widget.pn.ButtonRenderedNodeFactory"
+    element-validator-class="com.aviarc.framework.toronto.widget.pn.validation.ButtonElementValidator">
+    <attributes>
+        <attribute name="class" mandatory="n"/>
+        <attribute name="value" mandatory="y"/>
+        <attribute name="type" mandatory="n"/>
+        <attribute name="action" type="action" mandatory="n"/>
+        <attribute name="action-type" mandatory="n"/>
+        <attribute name="enabled" mandatory="n" type="boolean" default="true"/>
+        <attribute name="validate" mandatory="n" default="y"/>
+        <attribute name="server-validate" mandatory="n" />
+    </attributes>
+    <sub-elements>
+        <sub-element name="validate">
+            <attributes>
+                <attribute name="widget" mandatory="n" type="nameref" />
+                <attribute name="dataset" mandatory="n"/>
+            </attributes>
+        </sub-element>
+    </sub-elements>
+    <includes>
+        <js-include file="Button.js"/>
+        <css-include file="button.css"/>
+    </includes>
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.Button()</js-constructor> 
+</widget>

@@ -1,0 +1,9 @@
+<widget name="required-actions"
+        factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+        rendered-node-factory="com.aviarc.toronto.widget.pn.RequiredActions">
+                
+    <attributes>
+        <attribute name="dataset" type="dataset" mandatory="y" />
+        <attribute name="field-name"  mandatory="y" />
+    </attributes>
+</widget>

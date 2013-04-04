@@ -1,0 +1,7 @@
+<widget name="google-analytics">
+  <attributes>
+    <attribute name="name" mandatory="n" datatype="name"/>
+    <attribute name="url" mandatory="n" datatype="string" />
+    <attribute name="account" mandatory="y" datatype="string" />
+  </attributes>
+</widget>

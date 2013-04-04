@@ -1,0 +1,19 @@
+<widget name="text-static" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl">
+    
+  <attributes>
+    <attribute name="text" mandatory="n"/>
+    <attribute name="tooltip" mandatory="n" />
+    <attribute name="class" mandatory="n" />
+    <attribute name="type" mandatory="n" default="text"/>
+    <attribute name="link" mandatory="n"/>
+    <attribute name="link-target" mandatory="n" default="blank"/>
+    <attribute name="image" mandatory="n"/>
+    <attribute name="enabled" mandatory="n" type="boolean" default="y"/>
+    <attribute name="action" mandatory="n" type="action" />
+  </attributes>
+   
+  <includes>
+        <js-include file="TextStatic.js"/> 
+    </includes>
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.TextStatic()</js-constructor>
+</widget>

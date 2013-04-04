@@ -1,0 +1,30 @@
+.footer_wrap{
+    height: 92px;
+    min-width: 982px;
+    position: relative;
+    border-top: 1px solid #999;
+    z-index: -1;
+}
+
+.footer-clearfix{
+    margin: 0 auto;
+    padding: 10px 0;
+    position: relative;
+    width: 980px;
+}
+
+.footer-left-text{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    font-size: 1em;
+}
+
+.footer-right-text{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 1em;
+}
+
+

@@ -1,0 +1,8 @@
+<container name="footer_wrap" class="footer_wrap" xmlns="urn:aviarc:widget:com.aviarc.toronto.widgets.pn">
+    <container name="footer" class="footer-clearfix"> 
+        <text-static name="lblLeftText" tooltip="" text="{@left-text}" class="footer-left-text"/>
+        <text-static name="lblRightText" tooltip="" text="{@right-text}" class="footer-right-text"/>
+        <content id="content" ></content>
+        <container class="clear"></container>
+    </container>
+</container>

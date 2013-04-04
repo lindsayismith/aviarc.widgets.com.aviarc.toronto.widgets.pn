@@ -1,0 +1,49 @@
+.navigationBar {
+overflow: auto;
+margin: 13px 0; 
+float:left;
+padding:0 !important; 
+width:100%;
+font-family: "trebuchet MS", Helvetica, sans-serif;
+}
+.navigationBarButton {
+cursor: pointer;
+float:left;
+margin:0;
+}
+.navigationBarButton.first{
+}
+.navigationBarButton.last{
+}
+.navigationBar .navigationBarButton {
+position: relative;
+list-style-type: none;
+float: left;
+width: auto !important;
+padding: 0;
+}
+.navigationBarButton .navigationButtonTextBox{
+position:relative;
+color: #fff;
+line-height: 20px;
+}
+.navigationButtonSelected .navigationButtonTextBox,
+.navigationBarButton:hover .navigationButtonTextBox
+{
+color: #F6C500;
+}
+
+.navigationBar .navigationBarButton.navigationButtonSelected {cursor:default;}
+
+.navigationBarButton.disabled {cursor:default;}
+.navigationBarButton.disabled .navigationButtonTextBox{
+color: #ccc;
+}
+
+.navigationBar .navigationBarButton{
+    border-right: 1px solid white;
+    padding: 0 10px;
+}
+.navigationBarButton.last {
+border-right: none;
+}

@@ -1,0 +1,17 @@
+<widget name="template-header" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl" container-positioning="y">
+    <attributes>
+        <attribute name="name" datatype="name" mandatory="n"/>
+        <attribute name="application-title" mandatory="y"/>
+        <attribute name="application-subtitle" mandatory="n"/>
+        <attribute name="logo-url" mandatory="y"/>
+        <attribute name="logo-position" mandatory="y"/>
+        <attribute name="brandinglogo-url" mandatory="n"/>
+        <attribute name="brandinglogo-position" mandatory="n"/>
+        <attribute name="show-branding-logo" mandatory="n" default="n"/>
+    </attributes>
+    
+    <includes>
+        <css-include file="template-header.css"/>
+    </includes>
+</widget>
+

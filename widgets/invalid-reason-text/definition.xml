@@ -1,0 +1,14 @@
+<widget name="invalid-reason-text" 
+        container-positioning="y" 
+        factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl">
+       
+    <attributes>
+        <attribute name="field" mandatory="n"/>
+        <attribute name="widget" mandatory="n"/>
+    </attributes>
+    <includes>
+        <css-include file="invalid-reason-text.css"/>
+        <js-include file="InvalidReasonText.js"/>
+    </includes>
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.InvalidReasonText()</js-constructor>
+</widget>

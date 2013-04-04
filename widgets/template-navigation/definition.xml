@@ -1,0 +1,12 @@
+<widget name="template-navigation" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl" container-positioning="y">
+    <attributes>
+        <attribute name="name" datatype="name" mandatory="y"/>
+        <attribute name="action-dataset" mandatory="n"/>
+        <attribute name="action-field" mandatory="n"/>
+    </attributes>
+    
+     <includes>
+        <css-include file="template-navigation.css"/>
+    </includes>
+</widget>
+

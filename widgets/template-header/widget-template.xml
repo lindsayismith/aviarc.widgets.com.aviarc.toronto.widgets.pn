@@ -1,0 +1,9 @@
+<container name="header_wrap" class="header_wrap" xmlns="urn:aviarc:widget:com.aviarc.toronto.widgets.pn"> 
+    <container name="header" class="header"> 
+             <image name="imgLogo" url="{$wwwURLPrefix}{@logo-url}" class="theme-logo" float="{@logo-position}"/>
+             <text-static name="lblApplicationTitle" tooltip="" text="{@application-title}" class="application-title"/>
+             <text-static name="lblApplicationSubtitle" tooltip="" text="{@application-subtitle}" class="application-subtitle"/>
+             <image name="imgBrandingLogo" url="{$wwwURLPrefix}{@brandinglogo-url}" class="branding-logo" float="{@brandinglogo-position}" visible="{@show-branding-logo}"/>
+    </container>
+</container>   
+ 

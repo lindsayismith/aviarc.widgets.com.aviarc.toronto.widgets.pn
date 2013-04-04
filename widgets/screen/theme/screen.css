@@ -1,0 +1,62 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background:#f8f8f8;
+}
+
+body.screen {
+    height: 100%;
+    width: 100%;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+}
+
+.screen-container {
+    height: 100%;
+    width: 100%;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+.screen-horizontal {
+    height: 100%;
+}
+
+.screen-border {
+   left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.screen-content {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+._screen-content-busy {
+    filter:alpha(opacity=40); 
+    moz-opacity:0.4;
+    opacity: .40;
+    z-index: 9999;  
+}
+
+
+.screen-horizontal-center {
+    margin: 0 auto;
+}
+
+.wait-cursor {
+    cursor: wait;
+}

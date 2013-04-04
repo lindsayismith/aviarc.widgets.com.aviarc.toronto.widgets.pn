@@ -1,0 +1,13 @@
+<widget name="copy-row"
+        factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+        action="y">
+    <attributes>
+        <attribute name="from-dataset" type="dataset" mandatory="y"/>
+        <attribute name="to-dataset" type="dataset" mandatory="y"/>
+    </attributes>
+    
+    <includes>        
+        <js-include file="CopyRow.js"/>    
+    </includes>    
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.CopyRow()</js-constructor>
+</widget>

@@ -1,0 +1,21 @@
+<widget name="image"
+    factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"     
+    container-positioning="y">
+  <attributes>
+    <attribute name="url" mandatory="n" />
+    <attribute name="default-url" mandatory="n" />
+    <attribute name="default-on-null" mandatory="n" default="y"/>
+    <attribute name="base-url" mandatory="n" />
+    <attribute name="field" type="field" mandatory="n" />
+    <attribute name="visible" mandatory="n" default="y" type="bool" />
+    <attribute name="enabled" mandatory="n" default="y" type="bool" />
+    <attribute name="position" mandatory="n" default="relative" />
+    <attribute name="action" type="action" mandatory="n"/>
+    <attribute name="action-type" mandatory="n"/>
+  </attributes>
+  <includes>
+    <js-include file="Image.js"/>
+    <css-include file="image.css"/>
+  </includes>
+  <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.Image()</js-constructor>  
+</widget>

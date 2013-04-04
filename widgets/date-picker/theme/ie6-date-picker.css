@@ -1,0 +1,4 @@
+div.com-aviarc-toronto-widget-core_2-3-0_date-picker-wrapper .underlay {
+    width: expression(this.parentElement.clientWidth);
+    height: expression(this.parentElement.clientHeight);
+}

@@ -1,0 +1,13 @@
+<widget name="container" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl">  
+<attributes>
+    <attribute name="class" type="string" mandatory="n"/>
+    <attribute name="enabled" type="boolean" mandatory="n" default="y"/>
+    <attribute name="position" type="string" default="relative"/>
+</attributes>
+<children allowed="y"/>
+  <includes>
+    <css-include file="container.css"/>
+    <js-include file="Container.js"/>
+  </includes>
+  <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.Container()</js-constructor>
+</widget>

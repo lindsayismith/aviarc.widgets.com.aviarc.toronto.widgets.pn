@@ -1,0 +1,13 @@
+<container name="page_wrap" class="page_wrap" xmlns="urn:aviarc:widget:com.aviarc.toronto.widgets.pn" xmlns:dojo="urn:aviarc:widget:com.aviarc.widgets.mobile.dojo">
+    <container name="page" class="page-clearfix">
+        <container name="content_wrap" class="content_wrap">
+            <container name="content" class="content">
+                <content id="main" >
+                
+                </content>
+            </container>
+            <container class="clear"></container>
+        </container>
+    </container>
+    <container class="clear"></container>
+</container>

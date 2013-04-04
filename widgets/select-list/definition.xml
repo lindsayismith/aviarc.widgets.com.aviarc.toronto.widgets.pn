@@ -1,0 +1,21 @@
+<widget name="select-list" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl">  
+    <attributes>
+        <attribute name="class" type="string" mandatory="n"/>
+        <attribute name="dataset" mandatory="y" type="dataset"/>
+        <attribute name="enabled" mandatory="n" type="boolean" default="y"/>
+        <attribute name="selection-field" mandatory="n" type="field"/>
+        <attribute name="id-field" mandatory="y" />
+        <attribute name="display-field" mandatory="y" />
+        <attribute name="null-option-text" mandatory="n"/>
+        <attribute name="select-row" mandatory="n" type="boolean" default="n"/>
+        <attribute name="multi-line" mandatory="n" type="boolean" default="n"/>
+        <attribute name="mandatory" mandatory="n" type="bool"/>
+		<attribute name="mandatory-display-text" mandatory="n" default="*"/>
+        <attribute name="validation-failed-message" mandatory="n"/>
+    </attributes>
+    <includes>  
+        <js-include file="SelectList.js"/>
+		<css-include file="select-list.css"/>
+    </includes>
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.SelectList()</js-constructor>
+</widget>

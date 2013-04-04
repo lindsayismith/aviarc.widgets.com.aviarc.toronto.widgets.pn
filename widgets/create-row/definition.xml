@@ -1,0 +1,19 @@
+<widget name="create-row"
+        factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+        action="y">
+    <attributes>
+        <attribute name="dataset" type="dataset" mandatory="y"/>        
+    </attributes>
+    <sub-elements>
+        <sub-element name="field" mandatory="n">
+            <attributes>
+                <attribute name="name" mandatory="y"/>
+                <attribute name="value" mandatory="y"/>
+            </attributes>
+        </sub-element>
+    </sub-elements>
+    <includes>        
+        <js-include file="CreateRow.js"/>    
+    </includes>    
+    <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.CreateRow()</js-constructor>
+</widget>

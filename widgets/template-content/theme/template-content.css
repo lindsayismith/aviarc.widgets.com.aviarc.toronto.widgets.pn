@@ -1,0 +1,26 @@
+
+.page_wrap {
+margin:0 auto;
+position:relative;
+}
+
+.page-clearfix {
+position:relative;
+display:block;
+}
+
+.content_wrap {
+margin: 0 auto;
+}
+
+.content {
+padding: 20px;
+min-height: 700px;
+width: 940px;
+margin: 0 auto;
+background-color: #fff;
+}
+
+.clear {
+clear:both;
+}

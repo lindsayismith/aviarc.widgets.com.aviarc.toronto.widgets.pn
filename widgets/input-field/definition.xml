@@ -1,0 +1,33 @@
+<widget name="input-field" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl">
+    <attributes>   
+        <attribute name="html5-required" mandatory="n" type="bool"/><!-- HTML 5 -->
+        <attribute name="html5-autofocus" mandatory="n"/><!-- HTML 5 -->
+        
+        <attribute name="length" mandatory="n" />
+        <attribute name="placeholder" mandatory="n"/>
+        <attribute name="class" mandatory="n"/>
+        <attribute name="value" mandatory="n"/> 
+        <attribute name="type" mandatory="y"/>   
+        <attribute name="data-type" mandatory="n"/>     
+        <attribute name="checked" mandatory="n"/>
+        <attribute name="enabled" mandatory="n" type="boolean" default="y"/>
+        <attribute name="field" mandatory="n" type="field"/>
+        <attribute name="mandatory" mandatory="n" type="bool"/>
+        <attribute name="mandatory-display-text" mandatory="n" default="*"/>
+        <attribute name="focus" mandatory="n" default="n"/>
+        <attribute name="groupname" mandatory="n"/>
+        <attribute name="label" mandatory="n"/>
+        <attribute name="readonly" mandatory="n" type="boolean" default="n"/>
+        <attribute name="clear-on-disable" mandatory="n" default="n"/>
+        <attribute name="allowed-chars" mandatory="n"/>
+        <attribute name="disallowed-chars" mandatory="n"/>
+        <attribute name="checked-value" mandatory="n"/>
+        <attribute name="unchecked-value" mandatory="n"/> 
+        <attribute name="validation-failed-message" mandatory="n"/>
+    </attributes> 
+    <includes>
+        <js-include file="InputField.js"/>
+        <css-include file="input-field.css"/>
+    </includes>
+      <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.InputField()</js-constructor>
+</widget>

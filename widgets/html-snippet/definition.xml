@@ -1,0 +1,14 @@
+<widget name="html-snippet"
+        factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+        container-positioning="y">
+
+    <attributes>
+        <attribute name="text" type="string" mandatory="y"/>
+    </attributes>
+
+    <includes>
+        <js-include file="HTMLSnippet.js"/>
+    </includes>
+    <children allowed="y"/>
+   <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.HTMLSnippet()</js-constructor>
+</widget>

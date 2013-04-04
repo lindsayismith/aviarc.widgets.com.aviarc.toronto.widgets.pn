@@ -1,0 +1,12 @@
+<widget name="template-footer" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl" container-positioning="y">
+    <attributes>
+        <attribute name="name" datatype="name" mandatory="y"/>
+        <attribute name="left-text" mandatory=""/>
+        <attribute name="right-text" mandatory=""/>
+    </attributes>
+    
+    <includes>
+        <css-include file="template-footer.css"/>
+    </includes>
+</widget>
+

@@ -1,0 +1,10 @@
+<container name="navigation_wrap" class="navigation_wrap" xmlns:app="urn:aviarc:widget:application" xmlns="urn:aviarc:widget:com.aviarc.toronto.widgets.pn">
+    <container name="navigation" class="navigation">
+            
+            <content id="main" >
+                
+            </content>
+            
+    </container>
+    <required-actions dataset="{@action-dataset}" field-name="{@action-field}"/>
+</container>

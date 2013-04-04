@@ -1,0 +1,14 @@
+<widget name="text-dynamic" 
+    factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl"
+    container-positioning="y">
+ 
+  <attributes>
+    <attribute name="class" mandatory="n" />
+    <attribute name="field" mandatory="y" type="field" />
+    <attribute name="position" default="relative" />
+  </attributes>
+  <includes>
+    <js-include file="TextDynamic.js"/>
+  </includes>
+  <js-constructor>new YAHOO.com.aviarc.framework.toronto.widget.pn.TextDynamic()</js-constructor>
+</widget>
